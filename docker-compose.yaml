@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  jrs-react:
+    image: ronannnn/jrs-react:1.0
+    restart: always
+    container_name: jrs-react
+    ports:
+      - 80:80
